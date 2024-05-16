@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".student.StudentMarkPage"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:gravity="fill_vertical"
+    >
+
+    <TextView
+        android:id="@+id/subject_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="CS18501"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="@color/primary"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:background="@color/primary"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.17"
+                android:text="CAT 1"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="12dp"
+                android:background="@drawable/border_right"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.17"
+                android:text="Assign 1"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/border_right"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.17"
+                android:text="CAT 2"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/border_right"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.17"
+                android:text="Assign 2"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/border_right"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.17"
+                android:text="CAT 3"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:background="@drawable/border_right"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.17"
+                android:text="Assign 3"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:textColor="@color/white"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            >
+            <TextView
+                android:id="@+id/cat_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.17"
+                android:text="CAT 1"
+                android:gravity="center"
+                android:background="@drawable/border_bottom_right"
+                />
+            <TextView
+                android:id="@+id/assign_1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.17"
+                android:text="Assign 1"
+                android:gravity="center"
+                android:background="@drawable/border_bottom_right"
+                />
+            <TextView
+                android:id="@+id/cat_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.17"
+                android:text="CAT 2"
+                android:gravity="center"
+                android:background="@drawable/border_bottom_right"
+
+                />
+            <TextView
+                android:id="@+id/assign_2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.17"
+                android:text="Assign 2"
+                android:gravity="center"
+                android:background="@drawable/border_bottom_right"
+                />
+
+            <TextView
+                android:id="@+id/cat_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.17"
+                android:text="CAT 3"
+                android:gravity="center"
+                android:background="@drawable/border_bottom_right"
+
+                />
+            <TextView
+                android:id="@+id/assign_3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.17"
+                android:text="Assign 3"
+                android:gravity="center"
+                android:background="@drawable/border_bottom_right"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="20dp"
+        android:background="@color/primary"
+        >
+        <TextView
+            android:id="@+id/graph_cat_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="CAT 1"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/border_right"
+            />
+
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:text="Assign 1"-->
+<!--            android:layout_weight="0.17"-->
+<!--            android:backgroundTint="@color/primary"-->
+<!--            />-->
+
+        <TextView
+            android:id="@+id/graph_cat_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="CAT 2"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/border_right"
+            />
+
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:text="Assign 2"-->
+<!--            android:layout_weight="0.17"-->
+<!--            android:backgroundTint="@color/primary"-->
+<!--            />-->
+
+        <TextView
+            android:id="@+id/graph_cat_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="CAT 3"
+            android:backgroundTint="@color/primary"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:textColor="@color/white"
+            />
+
+<!--        <Button-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:text="Assign 3"-->
+<!--            android:layout_weight="0.17"-->
+<!--            android:backgroundTint="@color/primary"-->
+<!--            />-->
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/graph_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAT 1 Performance"
+        android:padding="10dp"
+        android:textColor="@color/primary"
+        android:textSize="20dp"
+        android:background="@drawable/border_bottom_right"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Loading..."
+            android:gravity="center"
+            />
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/idBarChart"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="match_parent"
+        tools:ignore="MissingClass"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
